@@ -1,0 +1,13 @@
+runpod>=1.5.1
+torch>=2.0.0
+torchvision>=0.15.0
+diffusers>=0.24.0
+transformers>=4.25.0
+accelerate>=0.20.0
+xformers>=0.0.20
+Pillow>=9.0.0
+opencv-python>=4.7.0
+imageio>=2.25.0
+imageio-ffmpeg>=0.4.8
+numpy>=1.21.0
+safetensors>=0.3.0
