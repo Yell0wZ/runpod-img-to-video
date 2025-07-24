@@ -1,5 +1,5 @@
 # Use NVIDIA CUDA base image with Python
-FROM nvidia/cuda:12.1-devel-ubuntu22.04
+FROM nvidia/cuda:11.7-devel-ubuntu20.04
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
