@@ -1,5 +1,5 @@
 # Use NVIDIA CUDA base image with Python
-FROM nvidia/cuda:11.8-devel-ubuntu22.04
+FROM nvidia/cuda:12.1-devel-ubuntu22.04
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
@@ -43,6 +43,8 @@ RUN pip install --no-deps xformers
 
 # Copy application code
 COPY handler.py .
+COPY config.py .
+COPY validation.py .
 
 # Create cache directory for models
 RUN mkdir -p /app/model_cache
